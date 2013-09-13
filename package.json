@@ -1,0 +1,11 @@
+{
+    "name"        : "incept-drone"
+  , "version"     : "0.0.1"
+  , "homepage"    : "http://abru.pt"
+  , "description" : "Incept drone"
+  , "author": "Pedro Dias <petermdias@gmail.com>"
+  , "dependencies": {
+      "dockerode"          : "*"
+    }
+  , "main"    : "./main.js"
+}
