@@ -1,5 +1,5 @@
-var Server = require('./lib/server');
+var Drone = require('./lib/drone');
 
 var port = 6001;
-var server = new Server(port);
-server.start();
+var d = new Drone(port);
+d.start();
